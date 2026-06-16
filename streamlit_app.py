@@ -1,14 +1,7 @@
-html_content = """
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>test</title>
-    <head>
-    
-    <body>
-        <h1>test2</h1>
-    </body>
-</html>
-"""
+import streamlit as st
+import pandas as pd
+import numpy as np
 
-print(html_content)
+st.title('stock_QC_finance')
+
+st.write('test')
